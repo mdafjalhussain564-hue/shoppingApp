@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: #1D4ED8;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.footer {
+    background: #f3f4f6;
+    padding: 1rem;
+    text-align: center;
+    font-size:0.9rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding:1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+@media (min-width: 600px) {
+    .grid-cols-2 {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn {
+    background: #10B981;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #3B82F6;
+}
+
+.input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+.error {
+    color: #DC2626;
+    font-size: 0.9rem;
+}
+
+
+/* ===== BASE ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+  width: 92%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 25px 0;
+}
+
+/* ===== HERO (ULTRA PREMIUM) ===== */
+.hero {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a, #2563eb);
+  color: white;
+  padding: 70px 30px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* glowing effect */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255,255,255,0.08), transparent 60%);
+  transform: rotate(25deg);
+}
+
+/* ===== BUTTONS (MODERN) ===== */
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  margin: 5px;
+}
+
+/* primary */
+button {
+  background: #2563eb;
+  color: white;
+  box-shadow: 0 8px 20px rgba(37,99,235,0.3);
+}
+
+button:hover {
+  transform: translateY(-3px);
+  background: #1d4ed8;
+}
+
+/* secondary */
+button.secondary {
+  background: #10b981;
+}
+
+button.secondary:hover {
+  background: #059669;
+}
+
+/* ===== CARD (PREMIUM GLASS STYLE) ===== */
+.card {
+  background: white;
+  padding: 20px;
+  margin-top: 18px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s;
+  border: 1px solid #e2e8f0;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+  font-size: 26px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* ===== STATS STYLE (NEW LOOK) ===== */
+.card h2 {
+  font-size: 32px;
+  color: #2563eb;
+  margin: 0;
+}
+
+/* ===== LIST STYLE ===== */
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin: 8px 0;
+  font-size: 15px;
+  color: #334155;
+}
+
+
+

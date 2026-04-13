@@ -1,0 +1,4 @@
+[
+{ "id": 1, "name": "Shirt Dry Cleaning", "description": "Premium shirtcleaning", "price": 50, "image": "/images/shirt.jpg" },
+{ "id": 2, "name": "Pant Dry Cleaning", "description": "Lawn pantcleaning", "price": 60, "image": "/images/pant.jpg" }
+]
