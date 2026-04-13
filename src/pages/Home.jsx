@@ -49,6 +49,11 @@ function Home() {
           <li>✔ Free Pickup & Delivery</li>
           <li>✔ Express Service Available</li>
         </ul>
+        <ul>
+          <li>
+            new line adding in project
+          </li>
+        </ul>
       </section>
 
       {/* TESTIMONIALS */}
